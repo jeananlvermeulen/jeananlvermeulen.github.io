@@ -10,6 +10,7 @@
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
 </style>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script> 
 <body>
 
 <!-- Navbar -->
@@ -187,6 +188,7 @@ body {font-family: "Lato", sans-serif}
             </div>
           </div>
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <div class="g-recaptcha" data-sitekey="6LdDic8UAAAAAHCPNItzxz4TcvUns2TwaoHv9uBi"></div>
           <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
         </form>
       </div>
@@ -230,7 +232,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-</script>
+</script> 
 
 </body>
 </html>
